@@ -1,0 +1,7 @@
+export enum OTP_ACTIONS {
+  LOGIN = "LOGIN",
+  VERIFY_ORDER = "VERIFY_ORDER",
+  FORGOT_PASSWORD = "FORGOT_PASSWORD",
+}
+
+export const OTP_ACTIONS_LIST = Object.values(OTP_ACTIONS);
